@@ -14,6 +14,7 @@ body {
 .header-contact {
     color:#757575;
     text-decoration: none;
+    line-height: 1.17;
 }
 figcaption > p {
     color: #757575;
@@ -52,7 +53,17 @@ address {
 .postal {
     color: #FFFFFF;
 }
-.email {
+.footer-tel-no {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+}
+.email {
+    color: rgba(255, 255, 255, 0.6);
+}
+.link {
+    color: #212121;
+    text-decoration: none;
+}
+.link:hover {
+    color: #2196F3;
 }
