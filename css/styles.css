@@ -16,6 +16,9 @@ body {
     text-decoration: none;
     line-height: 1.17;
 }
+h1 {
+    color: white;
+}
 figcaption > p {
     color: #757575;
 }
@@ -40,7 +43,7 @@ h4 {
     font-size: 18px;
     line-height: 2;
 }
-footer {
+footer, .banner {
     background-color: #2F303A;
 }
 footer .logo {
