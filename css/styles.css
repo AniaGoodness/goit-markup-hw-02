@@ -63,6 +63,10 @@ address {
 .email {
     color: rgba(255, 255, 255, 0.6);
 }
+.email-index {
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+}
 .link {
     color: #212121;
     text-decoration: none;
