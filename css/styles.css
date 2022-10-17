@@ -8,7 +8,7 @@ body {
     color:black;
     text-decoration: none;
 }
-.logo span {
+.blue-logo {
     color: #2196F3;
 }
 .header-contact {
@@ -16,10 +16,10 @@ body {
     text-decoration: none;
     line-height: 1.17;
 }
-h1 {
+.baner-title {
     color: white;
 }
-figcaption > p {
+.card-descripion {
     color: #757575;
 }
 .b-portfolio {
@@ -32,25 +32,21 @@ figcaption > p {
     background-color: #2196F3;
     color: #FFFFFF;
 }
-li {
+.list {
     list-style-type: none;
 }
-img {
+.image-simple-list {
     width:auto;
     height: auto;
 }
-h4 {
+.card-title {
     font-size: 18px;
     line-height: 2;
 }
-footer, .banner {
+.footer-banner {
     background-color: #2F303A;
 }
-footer .logo {
-    color: #FFFFFF;
-    padding-left: 40px;
-}
-address {
+.footer-address {
     font-style: normal;
 }
 .postal {
@@ -73,4 +69,8 @@ address {
 }
 .link:hover {
     color: #2196F3;
+}
+.logo-footer {
+    color: #FFFFFF;
+    padding-left: 40px;
 }
