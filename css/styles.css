@@ -48,6 +48,10 @@ body {
     background: #F5F4FA;
     border-radius: 4px;
 }
+.home-b {
+    background-color: var(--button-color);
+    color: white;
+}
 .b-portfolio:hover {
     background-color: var(--button-color);
     color: #FFFFFF;
