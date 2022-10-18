@@ -1,7 +1,13 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
     line-height: 1.88;
+}
+:root {
+    --bg-color: #2F303A;
+    --link-color: #2196F3;
+    --button-color: #2196F3;
+    --content-color: #757575;
+    --title-color: #212121;
 }
 .logo {
     font-family: 'Raleway';
@@ -9,18 +15,32 @@ body {
     text-decoration: none;
 }
 .blue-logo {
-    color: #2196F3;
+    color: var(--link-color);
 }
 .header-contact {
-    color:#757575;
+    color: var(--content-color);
     text-decoration: none;
     line-height: 1.17;
 }
-.baner-title {
+.header-email:hover, 
+.header-pn:hover,
+.footer-email:hover,
+.footer-pn:hover,
+.footer-tel-no:hover,
+.email:hover,
+.link:hover {
+    color: var(--link-color);
+}
+.baner {
+    background-color: var(--bg-color);
+}.baner-title {
     color: white;
 }
+.section-t {
+    color: var(--title-color);
+}
 .card-descripion {
-    color: #757575;
+    color: var(--content-color);
 }
 .b-portfolio {
     cursor: pointer;
@@ -29,7 +49,7 @@ body {
     border-radius: 4px;
 }
 .b-portfolio:hover {
-    background-color: #2196F3;
+    background-color: var(--button-color);
     color: #FFFFFF;
 }
 .list {
@@ -42,9 +62,10 @@ body {
 .card-title {
     font-size: 18px;
     line-height: 2;
+    color: inherit;
 }
 .footer-banner {
-    background-color: #2F303A;
+    background-color: var(--bg-color);
 }
 .footer-address {
     font-style: normal;
@@ -56,6 +77,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
+
 .email {
     color: rgba(255, 255, 255, 0.6);
 }
@@ -67,9 +89,7 @@ body {
     color: #212121;
     text-decoration: none;
 }
-.link:hover {
-    color: #2196F3;
-}
+
 .logo-footer {
     color: #FFFFFF;
     padding-left: 40px;
