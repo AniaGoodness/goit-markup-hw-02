@@ -35,10 +35,10 @@ body {
     font-family: 'Raleway';
     font-style: normal;
     font-size: 26px;
+    line-height: 1.19;
     font-weight: 700;
     color: var(--second-color);
     text-decoration: none;
-    line-height: 1.19;
 }
 
 .blue-logo {
@@ -178,4 +178,9 @@ body {
 .logo-footer {
     color: var(--primary-color);
     padding-left: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
